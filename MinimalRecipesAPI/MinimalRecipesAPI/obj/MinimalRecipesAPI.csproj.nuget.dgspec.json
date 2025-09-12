@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\RecipesAPI\\RecipesAPI.csproj": {}
+    "C:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\MinimalRecipesAPI\\MinimalRecipesAPI\\MinimalRecipesAPI.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\RecipesAPI\\RecipesAPI.csproj": {
+    "C:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\MinimalRecipesAPI\\MinimalRecipesAPI\\MinimalRecipesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\RecipesAPI\\RecipesAPI.csproj",
-        "projectName": "RecipesAPI",
-        "projectPath": "c:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\RecipesAPI\\RecipesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\MinimalRecipesAPI\\MinimalRecipesAPI\\MinimalRecipesAPI.csproj",
+        "projectName": "MinimalRecipesAPI",
+        "projectPath": "C:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\MinimalRecipesAPI\\MinimalRecipesAPI\\MinimalRecipesAPI.csproj",
         "packagesPath": "C:\\Users\\Nolan\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\RecipesAPI\\obj\\",
+        "outputPath": "C:\\Users\\Nolan\\Documents\\VSCRepos\\RecipesBackend\\MinimalRecipesAPI\\MinimalRecipesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,23 +53,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "target": "Package",
-              "version": "[9.0.9, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[9.0.4, )"
+              "version": "[9.0.8, )"
             }
           },
           "imports": [
