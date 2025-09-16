@@ -1,0 +1,18 @@
+services:
+  dev-db:
+    image: dev-db
+    container_name: dev-db
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=dbpassword
+      - POSTGRES_DB=dev-db
+    volumes:
+      - "dev-db-data:/var/lib/postgresql/data"
+
+volumes:
+  dev-db-data:
